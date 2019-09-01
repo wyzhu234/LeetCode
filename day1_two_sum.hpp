@@ -13,12 +13,12 @@ vector<int> two_sum_1(vector<int> &nums, int target)
 
     vector<int> res;
     unordered_map<int, int> m;
-    for (size_t i = 0; i < nums.size(); i++)
+    for (int i = 0; i < nums.size(); i++)
     {
         m[nums[i]] = i;
     }
 
-    for (size_t i = 0; i < nums.size(); i++)
+    for (int i = 0; i < nums.size(); i++)
     {
         int t = target - nums[i];
         if (m.count(t) && m[t] != i)
@@ -38,12 +38,11 @@ vector<int> two_sum_2(vector<int> &nums, int target)
     {
         if (m.count(target - nums[i]))
         {
-            return{ i,m[target - nums[i]] };
+            return{ static_cast<int>(i),m[target - nums[i]] };
         }
         m[nums[i]] = i;
     }
     return vector<int>();
-
 }
 
 vector<int> two_sum(vector<int> &nums, int target)
