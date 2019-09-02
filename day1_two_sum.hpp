@@ -1,8 +1,5 @@
-#include <vector>
-#include <unordered_map>
-#include <iostream>
 
-using namespace std;
+#include "common.h"
 
 vector<int> two_sum_1(vector<int> &nums, int target)
 {
