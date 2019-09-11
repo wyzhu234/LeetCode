@@ -153,6 +153,8 @@
     <ClInclude Include="da2_add_two_numbers.hpp" />
     <ClInclude Include="day1_two_sum.hpp" />
     <ClInclude Include="day3_longgest_substring_without_repating_characters.hpp" />
+    <ClInclude Include="day4_median_of_two_sorted.hpp" />
+    <ClInclude Include="day5_longgest_palindromic.hpp" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
