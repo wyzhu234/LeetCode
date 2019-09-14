@@ -42,6 +42,12 @@
     <ClInclude Include="day5_longgest_palindromic.hpp">
       <Filter>源文件</Filter>
     </ClInclude>
+    <ClInclude Include="day6_zig_zag_conversion.hpp">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="day7_revers_integer.hpp">
+      <Filter>源文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
