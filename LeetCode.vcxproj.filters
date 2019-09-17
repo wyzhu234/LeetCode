@@ -48,6 +48,15 @@
     <ClInclude Include="day2_add_two_numbers.hpp">
       <Filter>源文件</Filter>
     </ClInclude>
+    <ClInclude Include="day8_string_to_integer.hpp">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="day9_palindrome_number.hpp">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="day10_regular_expression.hpp">
+      <Filter>源文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
