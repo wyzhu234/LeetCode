@@ -8,7 +8,7 @@ bool is_match_1(string s, string p)
     }
     if (p.size() == 1)
     {
-        return (s.size() == 1 && (s[0] = p[0] || p[0] == '.'));
+        return (s.size() == 1 && (s[0] == p[0] || p[0] == '.'));
     }
     if (p[1] != '*')
     {
@@ -52,12 +52,12 @@ bool is_match_2(string s, string p)
 
 bool is_match(string s, string p)
 {
-    return is_match_2(s, p);
+    return is_match_1(s, p);
 }
 
 void test_day10()
 {
     string s = "ab";
     string p = ".*c";
-    cout << is_match(s, p) << endl;
+    cout << noboolalpha << is_match(s, p) << endl;
 }
