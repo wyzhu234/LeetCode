@@ -57,6 +57,15 @@
     <ClInclude Include="day10_regular_expression.hpp">
       <Filter>源文件</Filter>
     </ClInclude>
+    <ClInclude Include="day11_container_with_most_water.hpp">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="day12_integer_to_roman.hpp">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="day13_roman_to_integer.hpp">
+      <Filter>源文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
