@@ -13,7 +13,7 @@ int roman_to_int(string s)
     for (size_t i = 0; i < s.size(); i++)
     {
         int val = m[s[i]];
-        if (i == s.size() - 1 || m[s[i] + 1] <= m[s[i]])
+        if (i == s.size() - 1 || m[s[i + 1]] <= m[s[i]])
         {
             res += val;
         }

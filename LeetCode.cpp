@@ -17,7 +17,12 @@ int main()
     //test_day4();
     //test_day5();
     //test_day8();
-    test_day10();
+    //test_day10();
+    string s1 = string("string1");
+    string s2 = string("string2");
+    const char *p1 = s1.substr(1).data();
+    const char *p2 = s2.substr(1).data();
+    cout << p1 << p2 << endl;
     return 0;
 }
 
