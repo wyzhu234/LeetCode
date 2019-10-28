@@ -154,6 +154,7 @@
     <ClInclude Include="day11_container_with_most_water.hpp" />
     <ClInclude Include="day12_integer_to_roman.hpp" />
     <ClInclude Include="day13_roman_to_integer.hpp" />
+    <ClInclude Include="day14_longest_common_prefix.hpp" />
     <ClInclude Include="day2_add_two_numbers.hpp" />
     <ClInclude Include="day1_two_sum.hpp" />
     <ClInclude Include="day3_longgest_substring_without_repating_characters.hpp" />

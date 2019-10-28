@@ -10,6 +10,16 @@
 
 #include "day8_string_to_integer.hpp"
 #include "day10_regular_expression.hpp"
+
+void one_error()
+{
+    string s1 = string("string1");
+    string s2 = string("string2");
+    const char *p1 = s1.substr(1).data();
+    const char *p2 = s2.substr(1).data();
+    cout << p1 << p2 << endl;
+}
+
 int main()
 {
     //test_case();
@@ -18,11 +28,7 @@ int main()
     //test_day5();
     //test_day8();
     //test_day10();
-    string s1 = string("string1");
-    string s2 = string("string2");
-    const char *p1 = s1.substr(1).data();
-    const char *p2 = s2.substr(1).data();
-    cout << p1 << p2 << endl;
+
     return 0;
 }
 

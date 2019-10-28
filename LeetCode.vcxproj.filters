@@ -66,6 +66,9 @@
     <ClInclude Include="day13_roman_to_integer.hpp">
       <Filter>源文件</Filter>
     </ClInclude>
+    <ClInclude Include="day14_longest_common_prefix.hpp">
+      <Filter>源文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
