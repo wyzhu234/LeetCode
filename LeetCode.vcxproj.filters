@@ -69,6 +69,9 @@
     <ClInclude Include="day14_longest_common_prefix.hpp">
       <Filter>源文件</Filter>
     </ClInclude>
+    <ClInclude Include="day15_3sum.hpp">
+      <Filter>源文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
