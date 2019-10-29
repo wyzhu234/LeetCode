@@ -72,6 +72,9 @@
     <ClInclude Include="day15_3sum.hpp">
       <Filter>源文件</Filter>
     </ClInclude>
+    <ClInclude Include="day16_3sum_closest.hpp">
+      <Filter>源文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
