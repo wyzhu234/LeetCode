@@ -30,11 +30,11 @@ int threeSumClosest(vector<int>& nums, int target)
             }
             else if (temp > target)
             {
-                r--;
+                while (l < r && nums[r] == nums[--r]);
             }
             else
             {
-                l++;
+                while (l < r&&nums[l] == nums[++l]);
             }
 
             new_diff = abs(target - temp);
