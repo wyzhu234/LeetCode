@@ -11,6 +11,9 @@
 #include "day8_string_to_integer.hpp"
 #include "day10_regular_expression.hpp"
 
+
+#include "day17_letter_combinations.hpp"
+
 void one_error()
 {
     string s1 = string("string1");
@@ -29,6 +32,7 @@ int main()
     //test_day8();
     //test_day10();
 
+    letter_combinations1("23");
     return 0;
 }
 
