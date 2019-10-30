@@ -14,6 +14,7 @@
 
 #include "day17_letter_combinations.hpp"
 #include "day18_four_sum.hpp"
+#include "day19_remove_Nth_from_end.hpp"
 
 void one_error()
 {
@@ -24,6 +25,23 @@ void one_error()
     cout << p1 << p2 << endl;
 }
 
+void fun(double **p, int m, int n)
+{
+    //*((double*)array + n*i + j);
+    double temp = *((double *)p + 1);
+    cout << temp << endl;
+}
+
+void test_2darry_2p()
+{
+    double a[][3] = { { 1,2,3 },{ 4,5,6 },{ 7,8,9 } };
+    double **p = (double **)a;
+    double **b = reinterpret_cast<double **>(a);
+    fun(b, 3, 3);
+}
+
+
+
 int main()
 {
     //test_case();
@@ -32,7 +50,8 @@ int main()
     //test_day5();
     //test_day8();
     //test_day10();
-    test_day18();
+    test_day19();
+
     return 0;
 }
 
