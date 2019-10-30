@@ -2,24 +2,24 @@
 
 
 //Definition for singly-linked list.
-typedef struct ListNode11 {
-    int val;
-    ListNode11 *next;
-    ListNode11(int x) : val(x), next(NULL) {}
-} ListNode11;
+//typedef struct ListNode {
+//    int val;
+//    ListNode *next;
+//    ListNode(int x) : val(x), next(NULL) {}
+//} ListNode;
 
-ListNode11* removeNthFromEnd1(ListNode11* head, int n)
+ListNode* removeNthFromEnd(ListNode* head, int n)
 {
     if (nullptr == head || n < 0)
     {
         return head;
     }
     //链表处理，一般添加一个哑结点
-    ListNode11 *dumy_node = new ListNode11(-1);
+    ListNode *dumy_node = new ListNode(-1);
     dumy_node->next = head;
 
-    ListNode11 *del_node = dumy_node;
-    ListNode11 *iter = dumy_node;
+    ListNode *del_node = dumy_node;
+    ListNode *iter = dumy_node;
 
     while (iter->next != nullptr && n)
     {
@@ -35,7 +35,7 @@ ListNode11* removeNthFromEnd1(ListNode11* head, int n)
             del_node = del_node->next;
         }
 
-        ListNode11 *temp = del_node->next;
+        ListNode *temp = del_node->next;
         del_node->next = temp->next;
         delete temp;
     }
@@ -51,18 +51,18 @@ ListNode11* removeNthFromEnd1(ListNode11* head, int n)
 
 void test_day19()
 {
-    ListNode11 *head;
-    ListNode11 *list = new ListNode11(1);
+    ListNode *head;
+    ListNode *list = new ListNode(1);
     head = list;
-    //list->next = new ListNode11(2);
+    //list->next = new ListNode(2);
     //list = list->next;
-    //list->next = new ListNode11(3);
+    //list->next = new ListNode(3);
     //list = list->next;
-    //list->next = new ListNode11(4);
+    //list->next = new ListNode(4);
     //list = list->next;
-    //list->next = new ListNode11(5);
+    //list->next = new ListNode(5);
     //list = list->next;
 
-    removeNthFromEnd1(head, 1);
+    removeNthFromEnd(head, 1);
 
 }
