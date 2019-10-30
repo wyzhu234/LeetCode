@@ -13,6 +13,7 @@
 
 
 #include "day17_letter_combinations.hpp"
+#include "day18_four_sum.hpp"
 
 void one_error()
 {
@@ -31,8 +32,7 @@ int main()
     //test_day5();
     //test_day8();
     //test_day10();
-
-    letter_combinations1("23");
+    test_day18();
     return 0;
 }
 

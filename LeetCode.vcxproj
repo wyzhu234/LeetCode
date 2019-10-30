@@ -157,6 +157,7 @@
     <ClInclude Include="day14_longest_common_prefix.hpp" />
     <ClInclude Include="day15_3sum.hpp" />
     <ClInclude Include="day16_3sum_closest.hpp" />
+    <ClInclude Include="day18_four_sum.hpp" />
     <ClInclude Include="day2_add_two_numbers.hpp" />
     <ClInclude Include="day1_two_sum.hpp" />
     <ClInclude Include="day3_longgest_substring_without_repating_characters.hpp" />

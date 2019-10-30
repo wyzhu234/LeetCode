@@ -78,6 +78,9 @@
     <ClInclude Include="day17_letter_combinations.hpp">
       <Filter>源文件</Filter>
     </ClInclude>
+    <ClInclude Include="day18_four_sum.hpp">
+      <Filter>源文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
