@@ -17,6 +17,7 @@
 #include "day19_remove_Nth_from_end.hpp"
 #include "day20_vaild_parentheses.hpp"
 #include "day21_merge_two_sorted_lists.hpp"
+#include "day22_generate_parentheses.hpp"
 
 void one_error()
 {
@@ -52,7 +53,7 @@ int main()
     //test_day5();
     //test_day8();
     //test_day10();
-    test_day21();
+    test_day22();
 
     return 0;
 }

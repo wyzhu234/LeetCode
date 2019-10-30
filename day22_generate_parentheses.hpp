@@ -1,11 +1,6 @@
 #include "common.h"
 
-vector<string> generateParenthesis(int n)
-{
-    vector<string>res;
-    generateParentthesis_DFS(n, n, "", res);
-    return res;
-}
+
 
 void generateParentthesis_DFS(int left, int right, string out, vector<string>&res)
 {
@@ -25,4 +20,45 @@ void generateParentthesis_DFS(int left, int right, string out, vector<string>&re
             generateParentthesis_DFS(left, right - 1, out + ')', res);
         }
     }
+}
+
+vector<string> generateParenthesis(int n)
+{
+    vector<string>res;
+    generateParentthesis_DFS(n, n, "", res);
+    return res;
+}
+
+vector<string> generateParenthesis_1(int n)
+{
+    unordered_set<string> st;
+    if (n == 0)
+    {
+        st.insert("");
+    }
+    else
+    {
+        vector<string> pre = generateParenthesis_1(n - 1);
+        for (auto a : pre)
+        {
+            for (size_t i = 0; i < a.size(); i++)
+            {
+                if (a[i] == '(')
+                {
+                    a.insert(a.begin() + i + 1, '(');
+                    a.insert(a.begin() + i + 2, ')');
+                    st.insert(a);
+                    a.erase(a.begin() + i + 1, a.begin() + i + 3);
+                }
+            }
+            st.insert("()" + a);
+        }
+    }
+
+    return vector<string>(st.begin(), st.end());
+}
+
+void test_day22()
+{
+    vector<string> res = generateParenthesis_1(3);
 }
