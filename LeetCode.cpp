@@ -15,6 +15,7 @@
 #include "day17_letter_combinations.hpp"
 #include "day18_four_sum.hpp"
 #include "day19_remove_Nth_from_end.hpp"
+#include "day20_vaild_parentheses.hpp"
 
 void one_error()
 {
@@ -50,7 +51,7 @@ int main()
     //test_day5();
     //test_day8();
     //test_day10();
-    test_day19();
+    test_day20();
 
     return 0;
 }

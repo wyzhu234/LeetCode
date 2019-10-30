@@ -84,6 +84,9 @@
     <ClInclude Include="day19_remove_Nth_from_end.hpp">
       <Filter>源文件</Filter>
     </ClInclude>
+    <ClInclude Include="day20_vaild_parentheses.hpp">
+      <Filter>源文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
