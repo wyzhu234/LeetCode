@@ -162,6 +162,7 @@
     <ClInclude Include="day20_vaild_parentheses.hpp" />
     <ClInclude Include="day21_merge_two_sorted_lists.hpp" />
     <ClInclude Include="day22_generate_parentheses.hpp" />
+    <ClInclude Include="day23_merge_k_sorted_lists.hpp" />
     <ClInclude Include="day2_add_two_numbers.hpp" />
     <ClInclude Include="day1_two_sum.hpp" />
     <ClInclude Include="day3_longgest_substring_without_repating_characters.hpp" />

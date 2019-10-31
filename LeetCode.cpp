@@ -18,6 +18,8 @@
 #include "day20_vaild_parentheses.hpp"
 #include "day21_merge_two_sorted_lists.hpp"
 #include "day22_generate_parentheses.hpp"
+#include "day23_merge_k_sorted_lists.hpp"
+
 
 void one_error()
 {
@@ -53,7 +55,7 @@ int main()
     //test_day5();
     //test_day8();
     //test_day10();
-    test_day22();
+    test_day23();
 
     return 0;
 }

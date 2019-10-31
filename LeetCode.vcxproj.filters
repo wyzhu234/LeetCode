@@ -93,6 +93,9 @@
     <ClInclude Include="day22_generate_parentheses.hpp">
       <Filter>源文件</Filter>
     </ClInclude>
+    <ClInclude Include="day23_merge_k_sorted_lists.hpp">
+      <Filter>源文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
