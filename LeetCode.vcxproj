@@ -168,6 +168,7 @@
     <ClInclude Include="day25_reverse_nodes_in_k-group.hpp" />
     <ClInclude Include="day26_remove_duplicates_from_sorted_array.hpp" />
     <ClInclude Include="day27_remove_element.hpp" />
+    <ClInclude Include="day28_implement_strStr().hpp" />
     <ClInclude Include="day2_add_two_numbers.hpp" />
     <ClInclude Include="day1_two_sum.hpp" />
     <ClInclude Include="day3_longgest_substring_without_repating_characters.hpp" />

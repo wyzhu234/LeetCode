@@ -111,6 +111,9 @@
     <ClInclude Include="day27_remove_element.hpp">
       <Filter>源文件</Filter>
     </ClInclude>
+    <ClInclude Include="day28_implement_strStr().hpp">
+      <Filter>源文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
