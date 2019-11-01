@@ -47,3 +47,16 @@ ListNode* swapPairs(ListNode* head)
     return head;
    
 }
+
+//�ݹ鷽ʽ
+ListNode* swapPairs_1(ListNode* head)
+{
+    if (!head || !head->next) 
+    {
+        return head;
+    }
+    ListNode *tmp = head->next;
+    head->next = swapPairs_1(head->next->next);
+    tmp->next = head;
+    return tmp;
+}
