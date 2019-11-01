@@ -165,6 +165,7 @@
     <ClInclude Include="day22_generate_parentheses.hpp" />
     <ClInclude Include="day23_merge_k_sorted_lists.hpp" />
     <ClInclude Include="day24_swap_nodes_in_pairs.hpp" />
+    <ClInclude Include="day25_reverse_nodes_in_k-group.hpp" />
     <ClInclude Include="day2_add_two_numbers.hpp" />
     <ClInclude Include="day1_two_sum.hpp" />
     <ClInclude Include="day3_longgest_substring_without_repating_characters.hpp" />
