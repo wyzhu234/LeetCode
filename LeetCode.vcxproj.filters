@@ -108,7 +108,7 @@
     <ClInclude Include="day26_remove_duplicates_from_sorted_array.hpp">
       <Filter>源文件</Filter>
     </ClInclude>
-    <ClInclude Include="day26_remove_element.hpp">
+    <ClInclude Include="day27_remove_element.hpp">
       <Filter>源文件</Filter>
     </ClInclude>
   </ItemGroup>
