@@ -105,6 +105,9 @@
     <ClInclude Include="day25_reverse_nodes_in_k-group.hpp">
       <Filter>源文件</Filter>
     </ClInclude>
+    <ClInclude Include="day26_remove_duplicates_from_sorted_array.hpp">
+      <Filter>源文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
