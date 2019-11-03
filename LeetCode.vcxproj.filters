@@ -120,6 +120,9 @@
     <ClInclude Include="day30_substring_with_concatentation_of_all_words.hpp">
       <Filter>源文件</Filter>
     </ClInclude>
+    <ClInclude Include="day31_next_premutation.hpp">
+      <Filter>源文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
