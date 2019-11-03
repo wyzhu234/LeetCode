@@ -13,6 +13,12 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="源文件\Oct">
+      <UniqueIdentifier>{6beb3b70-9aaa-44fe-ba19-67c03b83d3f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Nov">
+      <UniqueIdentifier>{295c1a06-9f62-4e4e-9af5-39637a099ad6}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -24,119 +30,119 @@
     <ClInclude Include="targetver.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="day1_two_sum.hpp">
-      <Filter>源文件</Filter>
-    </ClInclude>
     <ClInclude Include="common.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="day3_longgest_substring_without_repating_characters.hpp">
-      <Filter>源文件</Filter>
-    </ClInclude>
-    <ClInclude Include="day4_median_of_two_sorted.hpp">
-      <Filter>源文件</Filter>
-    </ClInclude>
-    <ClInclude Include="day5_longgest_palindromic.hpp">
-      <Filter>源文件</Filter>
-    </ClInclude>
-    <ClInclude Include="day6_zig_zag_conversion.hpp">
-      <Filter>源文件</Filter>
-    </ClInclude>
-    <ClInclude Include="day7_revers_integer.hpp">
-      <Filter>源文件</Filter>
+    <ClInclude Include="day1_two_sum.hpp">
+      <Filter>源文件\Oct</Filter>
     </ClInclude>
     <ClInclude Include="day2_add_two_numbers.hpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\Oct</Filter>
+    </ClInclude>
+    <ClInclude Include="day3_longgest_substring_without_repating_characters.hpp">
+      <Filter>源文件\Oct</Filter>
+    </ClInclude>
+    <ClInclude Include="day4_median_of_two_sorted.hpp">
+      <Filter>源文件\Oct</Filter>
+    </ClInclude>
+    <ClInclude Include="day5_longgest_palindromic.hpp">
+      <Filter>源文件\Oct</Filter>
+    </ClInclude>
+    <ClInclude Include="day6_zig_zag_conversion.hpp">
+      <Filter>源文件\Oct</Filter>
+    </ClInclude>
+    <ClInclude Include="day7_revers_integer.hpp">
+      <Filter>源文件\Oct</Filter>
     </ClInclude>
     <ClInclude Include="day8_string_to_integer.hpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\Oct</Filter>
     </ClInclude>
     <ClInclude Include="day9_palindrome_number.hpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\Oct</Filter>
     </ClInclude>
     <ClInclude Include="day10_regular_expression.hpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\Oct</Filter>
     </ClInclude>
     <ClInclude Include="day11_container_with_most_water.hpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\Oct</Filter>
     </ClInclude>
     <ClInclude Include="day12_integer_to_roman.hpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\Oct</Filter>
     </ClInclude>
     <ClInclude Include="day13_roman_to_integer.hpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\Oct</Filter>
     </ClInclude>
     <ClInclude Include="day14_longest_common_prefix.hpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\Oct</Filter>
     </ClInclude>
     <ClInclude Include="day15_3sum.hpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\Oct</Filter>
     </ClInclude>
     <ClInclude Include="day16_3sum_closest.hpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\Oct</Filter>
     </ClInclude>
     <ClInclude Include="day17_letter_combinations.hpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\Oct</Filter>
     </ClInclude>
     <ClInclude Include="day18_four_sum.hpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\Oct</Filter>
     </ClInclude>
     <ClInclude Include="day19_remove_Nth_from_end.hpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\Oct</Filter>
     </ClInclude>
     <ClInclude Include="day20_vaild_parentheses.hpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\Oct</Filter>
     </ClInclude>
     <ClInclude Include="day21_merge_two_sorted_lists.hpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\Oct</Filter>
     </ClInclude>
     <ClInclude Include="day22_generate_parentheses.hpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\Oct</Filter>
     </ClInclude>
     <ClInclude Include="day23_merge_k_sorted_lists.hpp">
-      <Filter>源文件</Filter>
-    </ClInclude>
-    <ClInclude Include="day1114_order_output.hpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\Oct</Filter>
     </ClInclude>
     <ClInclude Include="day24_swap_nodes_in_pairs.hpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\Oct</Filter>
     </ClInclude>
     <ClInclude Include="day25_reverse_nodes_in_k-group.hpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\Oct</Filter>
     </ClInclude>
     <ClInclude Include="day26_remove_duplicates_from_sorted_array.hpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\Oct</Filter>
     </ClInclude>
     <ClInclude Include="day27_remove_element.hpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\Oct</Filter>
     </ClInclude>
     <ClInclude Include="day28_implement_strStr().hpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\Oct</Filter>
     </ClInclude>
     <ClInclude Include="day29_divide_two_integers.hpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\Oct</Filter>
     </ClInclude>
     <ClInclude Include="day30_substring_with_concatentation_of_all_words.hpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\Oct</Filter>
     </ClInclude>
     <ClInclude Include="day31_next_premutation.hpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\Oct</Filter>
     </ClInclude>
     <ClInclude Include="day32_longest_valid_parentheses.hpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\Oct</Filter>
     </ClInclude>
     <ClInclude Include="day33_search_in_rotated_sorted_array.hpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\Oct</Filter>
     </ClInclude>
     <ClInclude Include="day34_find_first_and_last_position_of_elements_in_sorted_array.hpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\Oct</Filter>
     </ClInclude>
     <ClInclude Include="day35_search_insert_position.hpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\Oct</Filter>
     </ClInclude>
     <ClInclude Include="day36_sudoku.hpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\Oct</Filter>
+    </ClInclude>
+    <ClInclude Include="day1114_order_output.hpp">
+      <Filter>源文件\Oct</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
