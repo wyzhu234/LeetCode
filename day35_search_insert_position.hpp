@@ -6,6 +6,11 @@ int searchInsert(vector<int>& nums, int target)
     {
         return 0;
     }
+
+    if (nums.back() < target)
+    {
+        return nums.size();
+    }
     int left = 0;
     int right = nums.size() - 1;
     while (left <= right)
