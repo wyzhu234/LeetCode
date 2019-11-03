@@ -132,6 +132,9 @@
     <ClInclude Include="day34_find_first_and_last_position_of_elements_in_sorted_array.hpp">
       <Filter>源文件</Filter>
     </ClInclude>
+    <ClInclude Include="day35_search_insert_position.hpp">
+      <Filter>源文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">

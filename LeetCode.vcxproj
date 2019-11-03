@@ -177,6 +177,7 @@
     <ClInclude Include="day32_longest_valid_parentheses.hpp" />
     <ClInclude Include="day33_search_in_rotated_sorted_array.hpp" />
     <ClInclude Include="day34_find_first_and_last_position_of_elements_in_sorted_array.hpp" />
+    <ClInclude Include="day35_search_insert_position.hpp" />
     <ClInclude Include="day3_longgest_substring_without_repating_characters.hpp" />
     <ClInclude Include="day4_median_of_two_sorted.hpp" />
     <ClInclude Include="day5_longgest_palindromic.hpp" />
