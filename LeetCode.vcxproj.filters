@@ -159,6 +159,9 @@
     <ClInclude Include="day41_first_missing_positive.hpp">
       <Filter>源文件\Nov</Filter>
     </ClInclude>
+    <ClInclude Include="day42_trapping_rain_water.hpp">
+      <Filter>源文件\Nov</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
