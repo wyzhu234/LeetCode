@@ -188,6 +188,7 @@
     <ClInclude Include="day42_trapping_rain_water.hpp" />
     <ClInclude Include="day43_multiply_strings.hpp" />
     <ClInclude Include="day44_wildcard_matching.hpp" />
+    <ClInclude Include="day45_jump_game2.hpp" />
     <ClInclude Include="day4_median_of_two_sorted.hpp" />
     <ClInclude Include="day5_longgest_palindromic.hpp" />
     <ClInclude Include="day6_zig_zag_conversion.hpp" />
