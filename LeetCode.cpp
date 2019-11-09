@@ -21,6 +21,8 @@
 #include "day23_merge_k_sorted_lists.hpp"
 #include "day25_reverse_nodes_in_k-group.hpp"
 
+#include "day46_premutations.hpp"
+
 void one_error()
 {
     string s1 = string("string1");
@@ -55,7 +57,7 @@ int main()
     //test_day5();
     //test_day8();
     //test_day10();
-    test_day25();
+    test_day46();
 
     return 0;
 }
