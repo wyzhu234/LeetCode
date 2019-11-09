@@ -165,6 +165,9 @@
     <ClInclude Include="day43_multiply_strings.hpp">
       <Filter>源文件\Nov</Filter>
     </ClInclude>
+    <ClInclude Include="day44_wildcard_matching.hpp">
+      <Filter>源文件\Nov</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
