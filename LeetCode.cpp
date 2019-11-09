@@ -23,6 +23,9 @@
 
 #include "day46_premutations.hpp"
 
+#include "day50_my_pow.hpp"
+
+
 void one_error()
 {
     string s1 = string("string1");
@@ -57,7 +60,7 @@ int main()
     //test_day5();
     //test_day8();
     //test_day10();
-    test_day46();
+    test_day50();
 
     return 0;
 }
