@@ -191,6 +191,7 @@
     <ClInclude Include="day45_jump_game2.hpp" />
     <ClInclude Include="day46_premutations.hpp" />
     <ClInclude Include="day48_rotate_image.hpp" />
+    <ClInclude Include="day49_group_anagrams.hpp" />
     <ClInclude Include="day4_median_of_two_sorted.hpp" />
     <ClInclude Include="day5_longgest_palindromic.hpp" />
     <ClInclude Include="day6_zig_zag_conversion.hpp" />
