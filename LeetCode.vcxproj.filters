@@ -195,6 +195,9 @@
     <ClInclude Include="day53_maximum_subarray.hpp">
       <Filter>源文件\Nov</Filter>
     </ClInclude>
+    <ClInclude Include="day54_spiral_matrix.hpp">
+      <Filter>源文件\Nov</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
