@@ -198,6 +198,7 @@
     <ClInclude Include="day52_n-queens2.hpp" />
     <ClInclude Include="day53_maximum_subarray.hpp" />
     <ClInclude Include="day54_spiral_matrix.hpp" />
+    <ClInclude Include="day55_jump_game.hpp" />
     <ClInclude Include="day5_longgest_palindromic.hpp" />
     <ClInclude Include="day6_zig_zag_conversion.hpp" />
     <ClInclude Include="day7_revers_integer.hpp" />
