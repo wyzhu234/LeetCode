@@ -195,6 +195,7 @@
     <ClInclude Include="day4_median_of_two_sorted.hpp" />
     <ClInclude Include="day50_my_pow.hpp" />
     <ClInclude Include="day51_n-queens.hpp" />
+    <ClInclude Include="day52_n-queens2.hpp" />
     <ClInclude Include="day5_longgest_palindromic.hpp" />
     <ClInclude Include="day6_zig_zag_conversion.hpp" />
     <ClInclude Include="day7_revers_integer.hpp" />
