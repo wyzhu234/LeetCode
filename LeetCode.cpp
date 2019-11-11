@@ -24,6 +24,7 @@
 #include "day46_premutations.hpp"
 
 #include "day50_my_pow.hpp"
+#include "day57_insert_interval.hpp"
 
 
 void one_error()
@@ -60,7 +61,7 @@ int main()
     //test_day5();
     //test_day8();
     //test_day10();
-    test_day50();
+    test_day57();
 
     return 0;
 }

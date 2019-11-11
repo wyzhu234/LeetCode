@@ -204,6 +204,9 @@
     <ClInclude Include="day56_merge_intervals.hpp">
       <Filter>源文件\Nov</Filter>
     </ClInclude>
+    <ClInclude Include="day57_insert_interval.hpp">
+      <Filter>源文件\Nov</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
