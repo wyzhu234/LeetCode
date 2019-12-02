@@ -210,6 +210,9 @@
     <ClInclude Include="day58_length_of_last_word.hpp">
       <Filter>源文件\Nov</Filter>
     </ClInclude>
+    <ClInclude Include="day59_spiral_matrix.hpp">
+      <Filter>源文件\Nov</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
