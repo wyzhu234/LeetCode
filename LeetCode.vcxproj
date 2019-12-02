@@ -204,6 +204,7 @@
     <ClInclude Include="day58_length_of_last_word.hpp" />
     <ClInclude Include="day59_spiral_matrix.hpp" />
     <ClInclude Include="day5_longgest_palindromic.hpp" />
+    <ClInclude Include="day60_permutation_sequence.hpp" />
     <ClInclude Include="day6_zig_zag_conversion.hpp" />
     <ClInclude Include="day7_revers_integer.hpp" />
     <ClInclude Include="day8_string_to_integer.hpp" />

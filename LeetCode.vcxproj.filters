@@ -19,6 +19,9 @@
     <Filter Include="源文件\Nov">
       <UniqueIdentifier>{295c1a06-9f62-4e4e-9af5-39637a099ad6}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\Dec">
+      <UniqueIdentifier>{09d23a08-3a50-4ec1-9b0b-582200897ce6}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -212,6 +215,9 @@
     </ClInclude>
     <ClInclude Include="day59_spiral_matrix.hpp">
       <Filter>源文件\Nov</Filter>
+    </ClInclude>
+    <ClInclude Include="day60_permutation_sequence.hpp">
+      <Filter>源文件\Dec</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
