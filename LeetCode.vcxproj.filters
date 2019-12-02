@@ -219,6 +219,9 @@
     <ClInclude Include="day60_permutation_sequence.hpp">
       <Filter>源文件\Dec</Filter>
     </ClInclude>
+    <ClInclude Include="day61_rotate_list.hpp">
+      <Filter>源文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
