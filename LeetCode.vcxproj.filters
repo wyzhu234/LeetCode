@@ -220,7 +220,10 @@
       <Filter>源文件\Dec</Filter>
     </ClInclude>
     <ClInclude Include="day61_rotate_list.hpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\Dec</Filter>
+    </ClInclude>
+    <ClInclude Include="day62_unique_paths.hpp">
+      <Filter>源文件\Dec</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
