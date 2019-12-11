@@ -207,6 +207,7 @@
     <ClInclude Include="day60_permutation_sequence.hpp" />
     <ClInclude Include="day61_rotate_list.hpp" />
     <ClInclude Include="day62_unique_paths.hpp" />
+    <ClInclude Include="day63_unique_pathII.hpp" />
     <ClInclude Include="day6_zig_zag_conversion.hpp" />
     <ClInclude Include="day7_revers_integer.hpp" />
     <ClInclude Include="day8_string_to_integer.hpp" />

@@ -225,6 +225,9 @@
     <ClInclude Include="day62_unique_paths.hpp">
       <Filter>源文件\Dec</Filter>
     </ClInclude>
+    <ClInclude Include="day63_unique_pathII.hpp">
+      <Filter>源文件\Dec</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
