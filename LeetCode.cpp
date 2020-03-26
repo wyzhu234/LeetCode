@@ -27,6 +27,7 @@
 #include "day57_insert_interval.hpp"
 
 #include "day63_unique_pathII.hpp"
+#include "day64_minimum_path_sum.hpp"
 
 
 void one_error()
@@ -64,7 +65,8 @@ int main()
     //test_day8();
     //test_day10();
     //test_day57();
-    test_day63();
+    //test_day63();
+    test_day64();
     return 0;
 }
 

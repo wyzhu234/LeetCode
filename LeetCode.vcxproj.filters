@@ -22,6 +22,9 @@
     <Filter Include="源文件\Dec">
       <UniqueIdentifier>{09d23a08-3a50-4ec1-9b0b-582200897ce6}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\March">
+      <UniqueIdentifier>{2f3acf81-b1ec-4065-98dc-ba3b88a8d368}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -227,6 +230,9 @@
     </ClInclude>
     <ClInclude Include="day63_unique_pathII.hpp">
       <Filter>源文件\Dec</Filter>
+    </ClInclude>
+    <ClInclude Include="day64_minimum_path_sum.hpp">
+      <Filter>源文件\March</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
