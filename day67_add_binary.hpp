@@ -58,8 +58,10 @@ string addBinary(string a, string b)
         p = m >= 0 ? a[m] - '0' : 0;
         q = n >= 0 ? b[n] - '0' : 0;
         sum = p + q + carry;
-        res = to_string(sum) + res;
+        res = to_string(sum % 2) + res;
         carry = sum / 2;
+        --m;
+        --n;
     }
 
     if (carry)
