@@ -24,3 +24,36 @@ string longest_common_prefix(vector<string> &strs)
     }
 
 }
+
+string longestCommonPrefix_1(vector<string>& strs) {
+    if (strs.empty())
+    {
+        return "";
+    }
+
+    string s = "";
+    for (int j = 0; j < strs[0].size(); ++j)
+    {
+        const char &c = strs[0][j];
+        for (int i = 0; i < strs.size(); ++i)
+        {
+            if (strs[i].size() > j && strs[i][j] == c)
+            {
+                continue;
+            }
+            else
+            {
+                return s;
+            }
+        }
+        s += c;
+    }
+
+    return s;
+}
+
+void test_day14()
+{
+    vector<string> strs = { "flower","flow","flight" };
+    cout << longestCommonPrefix_1(strs);
+}
