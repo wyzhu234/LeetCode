@@ -10,7 +10,8 @@
 
 #include "day8_string_to_integer.hpp"
 #include "day10_regular_expression.hpp"
-
+#include "day14_longest_common_prefix.hpp"
+#include "day15_3sum.hpp"
 
 #include "day17_letter_combinations.hpp"
 #include "day18_four_sum.hpp"
@@ -28,7 +29,10 @@
 
 #include "day63_unique_pathII.hpp"
 #include "day64_minimum_path_sum.hpp"
+#include "day66_plus_one.hpp"
+#include "day67_add_binary.hpp"
 
+#include "day71_simplify_path.hpp"
 
 void one_error()
 {
@@ -54,7 +58,8 @@ void test_2darry_2p()
     fun(b, 3, 3);
 }
 
-
+#include<iostream>
+#include<list>
 
 int main()
 {
@@ -64,9 +69,16 @@ int main()
     //test_day5();
     //test_day8();
     //test_day10();
+    //test_day14();
+    test_day15();
     //test_day57();
     //test_day63();
-    test_day64();
+    //test_day64();
+
+    //test_day66();
+    //test_day67();
+
+    //test_day71();
     return 0;
 }
 

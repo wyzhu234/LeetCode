@@ -22,7 +22,7 @@
     <Filter Include="源文件\Dec">
       <UniqueIdentifier>{09d23a08-3a50-4ec1-9b0b-582200897ce6}</UniqueIdentifier>
     </Filter>
-    <Filter Include="源文件\March">
+    <Filter Include="源文件\April">
       <UniqueIdentifier>{2f3acf81-b1ec-4065-98dc-ba3b88a8d368}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
@@ -232,7 +232,22 @@
       <Filter>源文件\Dec</Filter>
     </ClInclude>
     <ClInclude Include="day64_minimum_path_sum.hpp">
-      <Filter>源文件\March</Filter>
+      <Filter>源文件\April</Filter>
+    </ClInclude>
+    <ClInclude Include="day65_valid_number.hpp">
+      <Filter>源文件\April</Filter>
+    </ClInclude>
+    <ClInclude Include="day66_plus_one.hpp">
+      <Filter>源文件\April</Filter>
+    </ClInclude>
+    <ClInclude Include="day67_add_binary.hpp">
+      <Filter>源文件\April</Filter>
+    </ClInclude>
+    <ClInclude Include="day69_Sqrt(x).hpp">
+      <Filter>源文件\April</Filter>
+    </ClInclude>
+    <ClInclude Include="day71_simplify_path.hpp">
+      <Filter>源文件</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

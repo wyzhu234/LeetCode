@@ -40,7 +40,7 @@ string addBinary(string a, string b)
     return res;
 }
 
-string addBinary(string a, string b)
+string addBinary_1(string a, string b)
 {
     if (a.empty() || b.empty())
     {
