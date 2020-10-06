@@ -8,9 +8,12 @@ string simplify_path(string path) {
     while (getline(iss, temp, '/'))
     {
         if (temp.empty() || temp == ".") continue;
-        if (temp == ".." && !vec.empty())
+        if (temp == "..")
         {
-            vec.pop_back();
+            if (!vec.empty())
+            {
+                vec.pop_back();
+            }
         }
         else
         {
