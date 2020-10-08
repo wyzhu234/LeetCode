@@ -2,11 +2,11 @@
 
 #include <forward_list>
 
-struct ListNode {
-    int val;
-    ListNode *next;
-    ListNode(int x) : val(x), next(NULL) {}
-};
+//struct ListNode {
+//    int val;
+//    ListNode *next;
+//    ListNode(int x) : val(x), next(NULL) {}
+//};
 
 
 forward_list<int> add_two_numbers(forward_list<int> &list1, forward_list<int> &list2)
