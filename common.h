@@ -20,4 +20,13 @@ struct ListNode {
     ListNode() : val(0), next(NULL) {}
     ListNode(int x) : val(x), next(NULL) {}
     ListNode(int x, ListNode *node) : val(x), next(node) {}
+    static void print_list(ListNode *list_node)
+    {
+        while (list_node)
+        {
+            cout << list_node->val << " ";
+            list_node = list_node->next;
+        }
+        cout << endl;
+    }
 };
