@@ -249,6 +249,18 @@
     <ClInclude Include="day71_simplify_path.hpp">
       <Filter>源文件</Filter>
     </ClInclude>
+    <ClInclude Include="day695_max_area_of_island.hpp">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="day215_find_Kth_largest.hpp">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="day148_sort_list.hpp">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="day160_getIntersectionNode.hpp">
+      <Filter>源文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">

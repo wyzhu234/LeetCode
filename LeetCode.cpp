@@ -33,6 +33,11 @@
 #include "day67_add_binary.hpp"
 
 #include "day71_simplify_path.hpp"
+#include "day148_sort_list.hpp"
+#include "day160_getIntersectionNode.hpp"
+
+#include "day215_find_Kth_largest.hpp"
+#include "day695_max_area_of_island.hpp"
 
 void one_error()
 {
@@ -70,7 +75,7 @@ int main()
     //test_day8();
     //test_day10();
     //test_day14();
-    test_day15();
+    //test_day15();
     //test_day57();
     //test_day63();
     //test_day64();
@@ -79,6 +84,10 @@ int main()
     //test_day67();
 
     //test_day71();
+    //test_day148();
+    test_day160();
+    //test_day215();
+    //test_day695();
+
     return 0;
 }
-

@@ -22,32 +22,32 @@
     <ProjectGuid>{0686F760-D8F7-48BD-A134-0DC53FA31377}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>LeetCode</RootNamespace>
-    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v140</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
-    <PlatformToolset>v140</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v140</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
-    <PlatformToolset>v140</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
@@ -155,12 +155,15 @@
     <ClInclude Include="day11_container_with_most_water.hpp" />
     <ClInclude Include="day12_integer_to_roman.hpp" />
     <ClInclude Include="day13_roman_to_integer.hpp" />
+    <ClInclude Include="day148_sort_list.hpp" />
     <ClInclude Include="day14_longest_common_prefix.hpp" />
     <ClInclude Include="day15_3sum.hpp" />
+    <ClInclude Include="day160_getIntersectionNode.hpp" />
     <ClInclude Include="day16_3sum_closest.hpp" />
     <ClInclude Include="day18_four_sum.hpp" />
     <ClInclude Include="day19_remove_Nth_from_end.hpp" />
     <ClInclude Include="day20_vaild_parentheses.hpp" />
+    <ClInclude Include="day215_find_Kth_largest.hpp" />
     <ClInclude Include="day21_merge_two_sorted_lists.hpp" />
     <ClInclude Include="day22_generate_parentheses.hpp" />
     <ClInclude Include="day23_merge_k_sorted_lists.hpp" />
@@ -212,6 +215,7 @@
     <ClInclude Include="day65_valid_number.hpp" />
     <ClInclude Include="day66_plus_one.hpp" />
     <ClInclude Include="day67_add_binary.hpp" />
+    <ClInclude Include="day695_max_area_of_island.hpp" />
     <ClInclude Include="day69_Sqrt(x).hpp" />
     <ClInclude Include="day6_zig_zag_conversion.hpp" />
     <ClInclude Include="day71_simplify_path.hpp" />
