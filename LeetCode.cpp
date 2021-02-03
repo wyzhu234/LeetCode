@@ -33,6 +33,8 @@
 #include "day67_add_binary.hpp"
 
 #include "day71_simplify_path.hpp"
+#include "day92_reverse_between.hpp"
+
 #include "day148_sort_list.hpp"
 #include "day160_getIntersectionNode.hpp"
 
@@ -84,8 +86,9 @@ int main()
     //test_day67();
 
     //test_day71();
+	test_day92();
     //test_day148();
-    test_day160();
+    //test_day160();
     //test_day215();
     //test_day695();
 

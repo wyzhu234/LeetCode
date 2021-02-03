@@ -221,6 +221,7 @@
     <ClInclude Include="day71_simplify_path.hpp" />
     <ClInclude Include="day7_revers_integer.hpp" />
     <ClInclude Include="day8_string_to_integer.hpp" />
+    <ClInclude Include="day92_reverse_between.hpp" />
     <ClInclude Include="day9_palindrome_number.hpp" />
     <ClInclude Include="day17_letter_combinations.hpp" />
     <ClInclude Include="day47_permutations2.hpp" />
